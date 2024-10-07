@@ -10,6 +10,10 @@ public class Department implements Serializable {
     private Integer id;
     private String name;
 
+    public Department() {
+
+    }
+
     public Department(int id, String name){
         setId(id);
         setName(name);
